@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: blue;
+    height: 200px;
+}
+
+.main{
+    background-color: aqua;
+    height: 200px;
+    text-align: center;
+}
+.main>h1{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px green;
+
+}
+
+.main>p{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.main>button{
+    padding: 10px 20px;
+    border-radius: 20px ;
+    background-color: burlywood;
+}
+
+.main>button:hover{
+    background:greenyellow;
+}
+
+
+
+
+.section>img{
+    height: 300px;
+    margin-right: 50px;
+    
+}
+
+.section{
+    background-color: black;
+}
+
+.footer>a{
+    background-color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinatorselector</title>
+
+
+    <style>
+        #c1{
+            height: 200px;
+            width: 400px;
+            border: 2px solid green;
+        }
+
+        #c2{
+            height:400px;
+            width:700px;
+            border: 2px solid red;
+        }
+         
+        /* descendant selector  */
+        /* #c1 p {
+            color:red;
+        }
+
+        #c2 div{
+              color: yellow;
+        } */
+
+        /* direct child selector */
+
+         #c1>p{
+            color: blue;
+        }
+
+        
+
+/* 
+        #d1 p{
+            color: red;
+        }
+
+        #d2 p{
+            color:blue
+        } */
+       
+
+        #d1>#p1{
+            color: burlywood;
+        }
+        
+
+         
+    </style>
+</head>
+<body>
+    <div id="c1">
+        <h1>this is firrst container</h1>
+        <p>this is para1</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h1>hiii</h1>
+        </div>
+    </div>
+
+    <div id="c2">
+        <h1>this is second container</h1>
+        <p>this is para 2</p>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quam!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam sequi amet eos eligendi labore debitis commodi suscipit vitae deleniti repellendus!</p>
+            <h1>helo</h1>
+        </div>
+    </div>
+
+
+
+
+    <div id="d1">
+        <h1>hiii</h1>
+        <h2>byyee</h2>
+        <h3>fhfjfj</h3>
+        <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dicta ex doloribus modi aut eligendi, sed nobis quod minima, incidunt veniam cumque, cupiditate eaque eveniet. Ut est dolorum culpa a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat possimus nisi nulla iusto cupiditate perferendis labore sequi ipsa aut ducimus, eum ipsum, nesciunt dolorem nostrum!</p>
+        <div id="d2">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit assumenda illo, aliquam porro reprehenderit tempore, nostrum cumque exercitationem, dolorem at quo voluptates saepe!</p>
+            <img src="" alt="">
+            <a href=""></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quos quasi autem quidem qui perferendis maxime velit blanditiis consequatur sunt optio, doloremque cumque, error, in perspiciatis explicabo voluptate? Ex minus ipsam iste eveniet consectetur tempora, aut repudiandae optio laboriosam nisi.</p>
+        </div>
+    </div>
+</body>
+</html>

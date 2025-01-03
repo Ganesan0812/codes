@@ -1,0 +1,78 @@
+header>h1{
+      color:red;
+}
+
+/* 1. FIRST LETTER */
+header>h1::first-letter{
+    color:yellow;
+    font-size: 100px;
+}
+
+/* 2.FIRST LINE */
+
+header>p::first-line{
+    background-color: aqua;
+}
+
+
+/* 3.SELECTION */
+
+/* ::selection{
+    background-color: black;
+    color: aliceblue;
+} */
+
+header>p::selection{
+
+    background-color: chartreuse;
+    color: aliceblue;
+}
+
+main>ul>li::selection{
+    background-color: crimson;
+    color: black;
+}
+
+/* 4.MARKER */
+
+main>ul>li::marker{
+    color: blue;
+}
+
+
+/* 5.BEFORE */
+
+header>p::before{
+    content: "###";
+    color: blue;
+}
+
+header>h1::before{
+    content: "hii";
+    color: blue;
+}
+
+
+/* 6.AFTER */
+
+header>h1::after{
+    content: "$$";
+    color: coral;
+}
+
+
+
+/* ! ATTRIBUTES SELECTOR */
+
+section>a{
+    color: red;
+}
+
+
+section>a[target="t1"]{
+    color: darkblue;
+}
+
+input[name="i1"]{
+    background-color: crimson;
+} 

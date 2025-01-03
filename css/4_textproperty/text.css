@@ -1,0 +1,40 @@
+/* .con1>h1{
+    color: red;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+.con1>p{
+    text-align: justify;
+    text-indent: 30px;
+    word-spacing: 400px;
+    height: 200px;
+}
+
+.con1>ol>li:nth-child(1){
+    color: red;
+    text-decoration: underline dashed;
+    font-size: 20px;
+}
+
+a[href]{
+    text-decoration: none;
+}
+
+a[target="t1"]{
+    text-decoration: none;
+}
+
+.con1>ol>li:nth-child(2){
+    word-spacing: 30px;
+} */
+
+span{
+    font-weight: bold;
+    text-shadow: 3px 5px 10px red;
+}
+
+.con1>h1{
+    text-shadow: 50px 10px 20px green;
+}
