@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.outer>.inner1,.inner2,.inner3,.inner4{
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+
+
+.outer>.inner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    background-image: url("https://images.pexels.com/photos/29851698/pexels-photo-29851698/free-photo-of-artisan-desserts-with-strawberry-ice-cream.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px 4px red;
+
+    background-attachment: fixed;
+
+}
+
+
+.outer>.inner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/30110689/pexels-photo-30110689/free-photo-of-cozy-morning-coffee-and-croissant-breakfast.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px red;
+
+    background-attachment: fixed;
+
+}
+
+
+.outer>.inner3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/29893445/pexels-photo-29893445/free-photo-of-delicious-brunch-with-waffles-and-toast-in-brno.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px red;
+
+    background-attachment: fixed;
+
+}
+
+
+.outer>.inner4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/30091775/pexels-photo-30091775/free-photo-of-serene-coastal-landscape-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px red;
+
+}

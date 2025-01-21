@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.outer{
+    background-color: aqua;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outer>.con1{
+
+
+    display: grid;
+
+   
+    border: 5px solid red;
+    height: 500px;
+    width: 750px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+
+}
+
+h1{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+    font-weight: bold;
+
+}
+
+.outer>.con1>.box{
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: white ;
+
+    text-shadow: 2px 2px 2px black;
+
+    transition: all 2s ease-in;
+
+    background-size: cover;
+}
+
+.outer>.con1>.box:hover{
+    background-position: center;
+}
+.outer>.con1>.box{
+    background-position: top;
+}
+
+#img1{
+   grid-row: span 2;
+   background-image: url("https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+#img2{
+
+    background-image: url("https://images.pexels.com/photos/457881/pexels-photo-457881.jpeg?auto=compress&cs=tinysrgb&w=600");
+
+}
+
+#img3{
+  background-image: url("https://images.pexels.com/photos/919278/pexels-photo-919278.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+#img4{
+    grid-column: span 2;
+
+    background-image: url("https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg?auto=compress&cs=tinysrgb&w=600");
+}
+
+#img5{
+  background-image: url("https://images.pexels.com/photos/1426718/pexels-photo-1426718.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+#img6{
+   background-image: url("https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+#img7{
+    background-image: url("https://images.pexels.com/photos/72473/pexels-photo-72473.jpeg?auto=compress&cs=tinysrgb&w=600");
+}

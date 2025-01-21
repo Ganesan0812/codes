@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+}
+
+.con1{
+    background-color:blanchedalmond;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.con1>.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid pink;
+}
+
+@media (max-width:790px) {
+    .outer{
+        background-color: bisque;
+        border: 2px solid green;
+    }
+
+    .con1{
+        flex-direction: column;
+        border-radius: 50%;
+        box-shadow: -2px 3px green;
+    }
+    
+}
+

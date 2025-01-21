@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color: green;
+    height: 100vh;
+}
+
+.outer>.header>.x1{
+
+    background-color:rgb(6, 193, 6);
+
+   display: flex;
+
+   justify-content: space-around;
+   height: 100px;
+
+   color: aliceblue;
+
+    
+
+}
+
+.outer>.header>.x1>.nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.outer>.header>.x1>.nav>ul>li{
+    margin-right: 8px;
+    margin-top: 50px;
+    list-style: none;
+    font-weight: bolder;
+}
+
+.outer>.r{
+    background-color: rgb(38, 171, 38);
+    height: 50px;
+}
+
+
+
+
+
+
+.outer>.header>.x1>h1{
+
+    margin-right: 1100px;
+    margin-top: 40px;
+    
+    
+    
+}
+
+.outer>.sec1{
+
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(46, 248, 46);
+    background: linear-gradient(to right,green,lightgreen);
+   
+}
+
+.outer>.sec1>.card1{
+    margin-top: 100px;
+}
+
+
+.outer>.sec1>.card1>h1{
+    color: aliceblue;
+    font-weight: bolder;
+
+}
+.outer>.sec1>.card1>p{
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.outer>.sec1>.card1>button{
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.outer>.sec2{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.outer>.sec2>.c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    height: 200px;
+    width: 300px;
+    box-shadow:  2px 2px #e3dddd;
+    border: 2px solid rgb(235, 229, 229);
+    border-radius: 10px;
+}
+
+.outer>.sec2>.c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid  white;
+    height: 200px;
+    width: 300px;
+    box-shadow:  2px 2px #e3dddd;
+    border: 2px solid rgb(235, 229, 229);
+    border-radius: 10px;
+
+}
+
+.outer>.sec2>.c3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(235, 229, 229);
+    height: 200px;
+    width: 300px;
+    box-shadow:  2px 2px #e3dddd;
+    border-radius: 10px;
+
+}
+
+.outer>.sec2>.c1>p{
+    margin-left: 30px;
+}
+
+
+.outer>.sec2>.c2>p{
+    margin-left: 30px;
+}
+
+
+.outer>.sec2>.c3>p{
+    margin-left: 30px;
+}
+
+
+.outer>.sec2>.c1>h1{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: green;
+    font-size: 25px;
+}
+
+.outer>.sec2>.c2>h1{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: green;
+    font-size: 25px;
+}
+
+.outer>.sec2>.c2>h1{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: green;
+    font-size: 25px;
+}
+
+
+.outer>.sec2>.c2>h1{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: green;
+    font-size: 25px;
+}
+
+.outer>.sec2>.c2>h1{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: green;
+    font-size: 25px;
+}
+
+.outer>.sec2>.c3>h1{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    color: green;
+    font-size: 25px;
+}
+
+.outer>.footer{
+    background-color: green;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer>.footer>h1{
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.outer>.footer>button{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 120px;
+}
+
+.outer>.last{
+    background-color: rgb(49, 46, 46);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer>.last>p{
+    color: white;
+}
+
+
+
