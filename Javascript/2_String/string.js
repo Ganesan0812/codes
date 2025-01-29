@@ -1,5 +1,5 @@
 let snamae="gani"
-let snamae2='gani2'
+let snamae2='GANI2'
 let snamae3=`gani3`
 
 console.log(typeof snamae2);
@@ -12,8 +12,8 @@ console.log(snamae.length);
 
 /* it is used to convert any string into uppercase and it will return one new string*/
 
-let upper=snamae.toUpperCase()
-console.log(upper);
+let oper=snamae.toUpperCase()
+console.log(oper);//GANI
 
 console.log(snamae);
 
@@ -23,11 +23,11 @@ console.log(snamae);
 /* it is used to convert any string into lowercase and it will return one new string */
 
 
-let lower=snamae2.toLowerCase
+let gani=snamae2.toLowerCase()
 
-console.log(snamae);
+console.log(gani);
 
-console.log(snamae);
+console.log(snamae2);
 
 
 //! 3.indexof()
@@ -88,14 +88,14 @@ console.log(str1.slice(4));// ow are you
 
 console.log(str1.slice(-1)); //u
 
-console.log(str1.slice(-4,-1)); // you
+console.log(str1.slice(-4,-1)); // yo
 
 
 //! 9.substring()
 
 //it is used to extract the string from another string.
 // here it will take two parameters (stratindex, endindex).
-// it will not includes the endindrx value.
+// it will not includes the endindex value.
 // here if we use negative index it will be converted into 0.
 
 
@@ -106,6 +106,9 @@ console.log(str1.substring(4));// ow are you
 console.log(str1.substring(4,1));//i h
 
 console.log(str1.substring(3)); //how are you
+
+console.log(str1.substring(-1));
+
 
 
 //! 10.lastindexof()

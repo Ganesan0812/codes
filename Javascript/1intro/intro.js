@@ -146,7 +146,9 @@ function display(){
     
 }
 
-display()
+let i1=display()
+console.log(il);
+
 
 
 

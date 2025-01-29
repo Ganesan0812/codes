@@ -12,23 +12,23 @@ display()
 //! function with paarameter
 
 
-function msg(userName)
+function msg(a)
 {
-    console.log(userName);
+    console.log(a);
     
 }
 
-msg("rohit")
+msg(10)
 
 //! function with return
 
-function add(a,b)
+function add(a,b,c)
 {
-  return a+b
+  return a+b-c
 }
 
-let sum=add(20,40)
-console.log(sum);
+let a1=add(20,50,40)
+console.log(a1);
 
 
 //! anonymous function
@@ -48,9 +48,18 @@ let add1=function(a,b){
 
 add1(10,50)
 
+let ayya=function(a,b,c){
+    console.log("hi am ayyapan function");
+    return a+b-c
+    
+}
+
+let gani=ayya(10,40,70)
+console.log(gani);
+
+
 
 // ! Arrow function 
-
 let sub=(a,b)=>{
     console.log("i am arrow function");
     console.log(a-b);
@@ -111,11 +120,13 @@ let outer=()=>{
         console.log(a+b);
         
     }
-
     inner()
+
+    
 }
 
 outer()
+
 
 // ! lexical scopping
 
@@ -136,6 +147,11 @@ let bye=()=>{
 
 }
 
+let hi=()=>{
+    console.log(`hi......`);
+    
+}
+
 let hii=(msg)=>{
 
     msg()
@@ -143,6 +159,7 @@ let hii=(msg)=>{
 }
 
 hii(bye)
+hii(hi)
 
 
 
@@ -159,7 +176,7 @@ let hof=(myname,age,like)=>{
 
 }
 
-hof("gani",20,play);
+hof(10,20,play);
 
 
 
@@ -170,5 +187,15 @@ hof("gani",20,play);
 (function()
 {
     console.log(" iam IIFE");
+    
+})();
+
+(function(){
+    console.log('i am gani ffunction');
+    
+})();
+
+(function(){
+    console.log('i am ayyapan function');
     
 })()
